@@ -1,0 +1,36 @@
+{
+  "Students": [
+    {
+      "id": "1",
+      "name": "Sunil Singh",
+      "age": "26",
+      "email": "sunilpdf94@gmail.com",
+      "rollno": "13",
+      "phone": "7653899802"
+    },
+    {
+      "name": "Sumit sharma",
+      "age": "24",
+      "email": "sumitpdf94@gmail.com",
+      "rollno": "15",
+      "phone": "7653899802",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Anjali sinha",
+      "age": "20",
+      "email": "anjali923@gmail.com",
+      "rollno": "34",
+      "phone": "7653899802"
+    },
+    {
+      "name": "Ali khan",
+      "age": "24",
+      "phone": "7653899802",
+      "rollno": "45",
+      "email": "aliindia234@gmail.com",
+      "id": "4"
+    }
+  ]
+}

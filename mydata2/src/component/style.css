@@ -1,0 +1,13 @@
+.myform{
+    box-shadow: 0px 0px 9px 7px rgb(240, 140, 140);
+    border: 3px groove black;
+    border-radius: 20px;
+    background: linear-gradient( rgb(4, 10, 4),rgb(225, 134, 8),rgb(7, 12, 19));
+    font-weight: 700;
+}
+.data{
+    box-shadow: 0px 0px 9px 7px rgb(31, 30, 30);
+    border: 6px groove black;
+    border-radius: 10px;
+    font-weight: 700;
+}
