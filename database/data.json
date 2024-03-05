@@ -26,11 +26,27 @@
     },
     {
       "name": "Ali khan",
-      "age": "24",
-      "phone": "7653899802",
-      "rollno": "45",
+      "age": "28",
       "email": "aliindia234@gmail.com",
+      "rollno": "543",
+      "phone": "7653899802",
       "id": "4"
+    },
+    {
+      "id": "6a76",
+      "name": "Meena",
+      "age": "23",
+      "email": "jyygdyhs@jhhjkh.com",
+      "phone": "43788236452",
+      "rollno": "5443"
+    },
+    {
+      "id": "9842",
+      "name": "sunil",
+      "age": "24",
+      "email": "hausilasingh1994@gmail.com",
+      "phone": "9876543223",
+      "rollno": "232"
     }
   ]
 }

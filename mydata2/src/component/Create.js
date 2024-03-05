@@ -15,7 +15,7 @@ function Create() {
     axios.post('http://localhost:3000/Students',{
       name,age,email,phone,rollno
     }).then((res)=>{
-      console.log(res);
+      // console.log(res);
       navigate('./read')
     })
   }
