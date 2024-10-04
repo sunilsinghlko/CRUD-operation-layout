@@ -3,7 +3,6 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './component/Home'
 import Menu from './element/Menu'
 import Footer from './element/Footer'
-import Header from './element/Header'
 import Create from './component/Create'
 import Read from './component/Read'
 import Search from './component/Search'
@@ -16,7 +15,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Header/>
       <Headroom>
       <Menu/>
       </Headroom>

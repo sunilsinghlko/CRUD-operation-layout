@@ -2,10 +2,8 @@ import React from "react";
 import Slider from "./Slider";
 import SimpleImageSlider from "react-simple-image-slider";
 import "react-multi-carousel/lib/styles.css";
-import { myProduct, responsive } from "./Data";
-import Slide from "./Slide";
 import About from "./About";
-
+import './style.css'
 function Home() {
   const images = [
     { url: "image/slider5.jpg" },
@@ -15,15 +13,6 @@ function Home() {
     { url: "image/slider1.jpg" },
     { url: "image/slider6.jpg" },
   ];
-
-  const product = myProduct.map((item) => (
-    <Slide
-      image={item.image}
-      name={item.name}
-      price={item.price}
-      description={item.description}
-    />
-  ));
 
   return (
     <>
@@ -39,9 +28,10 @@ function Home() {
           showNavs={true}
           slideDuration={1}
           autoPlay={true}
+          style={{ objectFit: 'cover' }}
         />
       </div>
-      <div className="row">
+      <div className="row mx-0"> 
         <div className="left col-sm-12 col-md-6 col-lg-4 col-xl-3 p-3">
           <ul className="list-group list-group-flush">
             <li className="list-group-item bg-info">Full Stack Courses</li>
@@ -52,7 +42,7 @@ function Home() {
           </ul>
           <ul className="list-group list-group-flush">
             <li className="list-group-item bg-info">Short term Courses</li>
-            <li className="list-group-item">Digital Marketting</li>
+            <li className="list-group-item">Digital Marketing</li>
             <li className="list-group-item">Graphic Design</li>
             <li className="list-group-item">Mechanical Auto Cad</li>
             <li className="list-group-item">Civil Auto Cad</li>
@@ -60,8 +50,8 @@ function Home() {
           <ul className="list-group list-group-flush">
             <li className="list-group-item bg-info">Microsoft Courses</li>
             <li className="list-group-item">MS Powerpoint</li>
-            <li className="list-group-item">Ms word</li>
-            <li className="list-group-item">Ms Excel</li>
+            <li className="list-group-item">MS Word</li>
+            <li className="list-group-item">MS Excel</li>
             <li className="list-group-item">Internet & Web Activities</li>
           </ul>
           <ul className="list-group list-group-flush">
@@ -71,18 +61,11 @@ function Home() {
             <li className="list-group-item">Machine Learning</li>
             <li className="list-group-item">Artificial Intelligence</li>
           </ul>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item bg-info">Personalty Development</li>
-            <li className="list-group-item">IELTS Classes</li>
-            <li className="list-group-item">English Speaking Class</li>
-            <li className="list-group-item">Public Speaking</li>
-            <li className="list-group-item">Aptitude Classes</li>
-          </ul>
+        
         </div>
         <div className="right col-sm-12 col-md-6 col-lg-8 col-xl-9 p-3 bg-secondary">
           <About />
           <Slider />
-
           <Slider />
         </div>
       </div>

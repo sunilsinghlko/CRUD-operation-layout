@@ -11,3 +11,24 @@
     border-radius: 10px;
     font-weight: 700;
 }
+body {
+    overflow-x: hidden;
+  }
+  
+  .row {
+    margin-left: 0; 
+    margin-right: 0; 
+  }
+  
+  .left, .right {
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .list-group-item {
+    padding: 10px; 
+  }

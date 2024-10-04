@@ -13,7 +13,7 @@ function Update() {
   let [phone, setphone] = useState();
 
   useEffect(() => {
-    axios.get("http://localhost:3000/Students/" + id).then((res) => {
+    axios.get("http://localhost:3001/Students/" + id).then((res) => {
       // console.log(res.data);
       setname(res.data.name);
       setage(res.data.age);
@@ -26,7 +26,7 @@ function Update() {
   let updateUser = (e) => {
     e.preventDefault();
     axios
-      .put("http://localhost:3000/Students/" + id, {
+      .put("http://localhost:3001/Students/" + id, {
         name,
         age,
         email,

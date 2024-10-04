@@ -12,11 +12,11 @@ function Create() {
 
   let submitUser = (e)=>{
     e.preventDefault()
-    axios.post('http://localhost:3000/Students',{
+    axios.post('http://localhost:3001/Students',{
       name,age,email,phone,rollno
     }).then((res)=>{
       // console.log(res);
-      navigate('./read')
+      navigate('/read')
     })
   }
   return (
